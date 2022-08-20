@@ -52,7 +52,7 @@ const Sidebar = () => {
             </div>
 
             <ul className={classes.Menus}>
-                <li className={location.pathname === '/jahid-portfolio' ? classes.active : ''}>
+                <li className={location.pathname === '/' ? classes.active : ''}>
                     <Link to="/">About Jahid</Link>
                 </li>
                 <li className={location.pathname === '/repos' ? classes.active : ''}>
